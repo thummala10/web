@@ -1,0 +1,203 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+
+}
+
+
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 160px;
+    text-align: center;
+    background: #fff;
+}
+
+.bronco-section{
+    padding-left: 0px;
+    padding-right: 0px;
+    background-attachment: fixed;
+    width: 100%;
+    height: 555px;
+    padding-top: 0px;
+}
+
+#peytonHomePic{
+    height: 555px;
+    background-image: url("peytonManning.png");
+    background-size: 100% 555px;
+    background-repeat: no-repeat;
+}
+
+#mainFantasyLogo{
+    height: 100px;
+    width: 150px;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+
+#haveAccount{
+    float: right;
+    color: white;
+    margin-top: 40px;
+}
+
+#briefText{
+    color: white;.
+}
+
+.navbar{
+    display: none;
+}
+
+.page-scroll{
+    font-size: 15px;
+}
+
+.navbar-nav{
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.navbar-header.page-scroll{
+    height: 100px;
+}
+
+.logo{
+    height: 100px;
+    width: 150px;
+}
+
+.navbar-toggle{
+    margin-top: 25px;
+}
+
+#logButtons{
+    padding-left: 3px;
+}
+
+.about-section {
+    padding-bottom: 20px;
+    padding-top: 100px;
+    text-align: center;
+    background: #eee;
+}
+
+.services-section {
+    padding-bottom: 20px;
+    padding-top: 100px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    padding-bottom: 40px;
+    padding-top: 100px;
+    text-align: center;
+    background: #eee;
+}
+
+footer{
+    padding-top: 50px;
+    background-color: #222222;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+}
+
+.header, .forgotModalDiv, .input{
+   text-align: center;
+}
+
+#under{
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+
+.ui.input{
+    width: 250px;
+    padding-bottom: 5px;
+}
+
+#subFullName, #subEmail{
+    margin-bottom: 5px;
+}
+
+.ui.dimmer {
+  position: fixed!important;
+}
+
+.ui.scrolling.dimmable > .dimmer,
+.ui.scrolling.page.dimmer {
+  position: fixed; /*absolute*/
+}
+/* Bound to segment size*/
+ .ui.segment > .ui.dimmer {
+   position:absolute;
+}
+
+.hidden{
+    display: none!important;
+}
+
+.icon.connect{
+    font-size: 30px;
+}
+
+#socialMedia{
+    float: right;
+}
+
+.center{
+    text-align: center;
+}
+
+.description{
+    color: #009345;;
+}
+
+#demo{
+    color: black;
+}
+
+.leftAlign{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
